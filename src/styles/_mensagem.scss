@@ -3,16 +3,22 @@
 .mensagem {
     padding: 80px 0;
 
+    &__detalhe {
+        &__titulo {
+            margin-bottom: 24px;
+
+            .escondido {
+                font-size: 10px;
+            }
+        }
+    }
+
     &--foto1 {
         background-image: linear-gradient(variables.$color1, variables.$color2);
     }
 
-    &--foto2 {
-        background-image: linear-gradient(variables.$color2, variables.$color3);
-    }
-
     &--foto3 {
-        background-image: linear-gradient(variables.$color3, variables.$color4);
+        background-image: linear-gradient(variables.$color2, variables.$color4);
     }
 
     &--imagem-esquerda {
@@ -24,9 +30,5 @@
     .container {
         display: flex;
         gap: 40px;
-    }
-
-    &__imagem {
-        max-width: 420px;
     }
 }

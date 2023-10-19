@@ -1,6 +1,7 @@
 @use 'hero';
 @use 'variables';
 @use 'mensagem';
+@use './components/carousel';
 
 * {
     margin: 0;
@@ -14,4 +15,8 @@
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+}
+
+.imagem {
+    max-width: 420px;
 }
