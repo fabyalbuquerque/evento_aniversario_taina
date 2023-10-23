@@ -15,8 +15,17 @@
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+
+    @media (max-width: 640px) {
+        max-width: 80%;
+    }
+
+    @media (max-width: 1024px) {
+        max-width: 90%;
+    }
 }
 
 .imagem {
     max-width: 420px;
+    width: 100%;
 }

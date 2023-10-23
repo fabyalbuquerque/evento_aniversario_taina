@@ -31,4 +31,19 @@
         display: flex;
         gap: 40px;
     }
+
+    @media (max-width: 640px) {
+        .container {
+            display: block;
+        }
+
+        &__imagem {
+            width: 100%;
+        }
+
+        &__detalhe {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    }
 }
