@@ -26,6 +26,6 @@ const contaAsHoras = setInterval(function() {
 
     if (distanciaAteOEvento < 0) {
         clearInterval(contaAsHoras);
-        document.getElementById('contador').innerHTML = "Expirado"
+        document.getElementById('mensagem').innerHTML = "Raio de Sol, feliz aniversário!"
     }
 }, 1000);

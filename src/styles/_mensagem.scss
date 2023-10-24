@@ -35,6 +35,7 @@
     @media (max-width: 640px) {
         .container {
             display: block;
+            width: 100%;
         }
 
         &__imagem {
@@ -44,6 +45,7 @@
         &__detalhe {
             margin-right: 0;
             margin-bottom: 20px;
+            width: 100%;
         }
     }
 }
